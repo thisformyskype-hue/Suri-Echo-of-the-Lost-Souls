@@ -5617,3 +5617,1210 @@ Sampler Limit: 32
 [2025.11.14-11.43.27:299][192]AssetCheck: /Game/BP/Gate2 Validating asset
 [2025.11.14-11.43.27:299][192]AssetCheck: /Game/materials/basic/wood Validating asset
 [2025.11.14-11.43.27:363][192]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.14-11.46.52:422][748]Cmd: TRANSACTION UNDO
+[2025.11.14-11.46.52:422][748]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.14-11.46.53:157][763]Cmd: TRANSACTION UNDO
+[2025.11.14-11.46.53:157][763]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: ================================================
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: Total job queries 20,126, among them cache hits 5,546 (27.56%), DDC hits 12,366 (61.44%), Duplicates 1,350 (6.71%)
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: Tracking 13,230 distinct input hashes that result in 12,054 distinct outputs (91.11%)
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: RAM used: 159.68 MiB of 6.40 GiB budget. Usage: 2.44%
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: Shaders Compiled: 864
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: Jobs assigned 864, completed 864 (100%)
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: Average time worker was idle: 139.76 s
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: Time job spent in pending queue: average 5.72 s, longest 32.94 s
+[2025.11.14-11.47.08:281][433]LogShaderCompilers: Display: Job execution time: average 7.17 s, max 47.36 s
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Job life time (pending + execution): average 12.89 s, max 48.16
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Shader code size: total 11.522 MiB, numShaders 902, average 13.081 KiB, min 1.167 KiB, max 55.505 KiB
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 207.96 s
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.06%
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Jobs were issued in 399 batches (only local compilation was used), average 2.17 jobs/batch
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Average processing rate: 4.15 jobs/sec
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Total thread time: 1,726.085 s
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Total thread preprocess time: 459.828 s
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Percentage time preprocessing: 26.64%
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Effective parallelization: 8.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.518753
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:            TBasePassPSFNoLightMapPolicySkylightForceVelocity (compiled    1 times, average 40.99 sec, max 40.99 sec, min 40.99 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    4 times, average 22.57 sec, max 31.24 sec, min 13.00 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    6 times, average 16.32 sec, max 29.71 sec, min 3.68 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    2 times, average 15.31 sec, max 20.58 sec, min 10.03 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   14 times, average 5.98 sec, max 21.05 sec, min 1.88 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 19.92% of total time (compiled   80 times, average 4.30 sec, max 5.13 sec, min 3.49 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 10.31% of total time (compiled   42 times, average 4.24 sec, max 29.38 sec, min 0.92 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.68% of total time (compiled   77 times, average 1.50 sec, max 19.06 sec, min 0.52 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 5.67% of total time (compiled    6 times, average 16.32 sec, max 29.71 sec, min 3.68 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.37% of total time (compiled   71 times, average 1.31 sec, max 17.88 sec, min 0.28 sec)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: === Material stats ===
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Materials Translated:    214
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Material Total Translate Time: 0.34 s
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Material Translation Only: 0.13 s (39%)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: Material Cache Hits: 8 (4%)
+[2025.11.14-11.47.08:282][433]LogShaderCompilers: Display: ================================================
+[2025.11.14-11.47.24:562][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2025.11.14-11.47.24:571][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-11.47.24:643][150]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Level1/0/GL/27LKO9BAQCKED14AZQLISZ
+[2025.11.14-11.47.24:645][150]LogSavePackage: Moving 'D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/27LKO9BAQCKED14AZQLISZ229A42C24CD9207830E6EFA9F88AAD08.tmp' to 'D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Content/__ExternalActors__/Maps/Level1/0/GL/27LKO9BAQCKED14AZQLISZ.uasset'
+[2025.11.14-11.47.24:659][150]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Level1/C/D6/QFISL2KDUVH3NRYXHR3HBK
+[2025.11.14-11.47.24:661][150]LogSavePackage: Moving 'D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/QFISL2KDUVH3NRYXHR3HBK68FAE3374FA199737DC9169A2EB5A3CB.tmp' to 'D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Content/__ExternalActors__/Maps/Level1/C/D6/QFISL2KDUVH3NRYXHR3HBK.uasset'
+[2025.11.14-11.47.24:708][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.660 ms (total: 3.77 sec)
+[2025.11.14-11.47.24:775][150]LogContentValidation: Display: Starting to validate 2 assets
+[2025.11.14-11.47.24:775][150]LogContentValidation: Enabled validators:
+[2025.11.14-11.47.24:775][150]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-11.47.24:775][150]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-11.47.24:775][150]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-11.47.24:775][150]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-11.47.24:775][150]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-11.47.24:775][150]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-11.47.24:775][150]AssetCheck: /Game/Maps/Level1 Validating asset
+[2025.11.14-11.47.24:846][150]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.14-11.47.31:542][419]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-11.47.31:542][419]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-11.47.31:548][419]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.366 ms (total: 190.134 ms)
+[2025.11.14-11.47.31:593][419]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-11.47.31:593][419]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-11.47.31:600][419]LogFMOD: Default sample rate = 48000
+[2025.11.14-11.47.31:600][419]LogFMOD: System sample rate = 48000
+[2025.11.14-11.47.31:600][419]LogFMOD: Matching system sample rate 48000
+[2025.11.14-11.47.31:600][419]LogFMOD: CallbackHandler not set.
+[2025.11.14-11.47.31:640][419]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-11.47.31:673][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-11.47.31:673][419]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.47.31:724][419]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-11.47.31:735][419]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.332 ms (total: 259.456 ms)
+[2025.11.14-11.47.31:736][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062721s)
+[2025.11.14-11.47.31:736][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.062792s)
+[2025.11.14-11.47.31:791][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.11.14-11.47.31:796][419]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-11.47.31:799][419]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-11.47.31:799][419]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-11.47.31:799][419]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-11.47.31:799][419]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-11.47.31:816][419]LogWorldPartition: Display: WorldPartition initialize took 17.944 ms (total: 5.69 sec)
+[2025.11.14-11.47.31:816][419]LogPlayLevel: PIE: World Init took: (0.021211s)
+[2025.11.14-11.47.31:818][419]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2025.11.14-11.47.31:818][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-11.47.31:818][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-11.47.31:818][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-11.47.31:818][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-11.47.31:818][419]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-11.47.31:818][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-11.47.31:818][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-11.47.31:818][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-11.47.31:818][419]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-11.47.31:818][419]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-11.47.31:818][419]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-11.47.31:823][419]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-11.47.31:862][419]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-11.47.31:863][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-11.47.31:863][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-11.47.31:863][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-11.47.31:863][419]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2025.11.14-11.47.31:864][419]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2025.11.14-11.47.31:867][419]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2025.11.14-11.47.31:867][419]LogInit: FAudioDevice initialized with ID 26.
+[2025.11.14-11.47.31:867][419]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2025.11.14-11.47.31:867][419]LogAudio: Display: Audio Device (ID: 26) registered with world 'Level1'.
+[2025.11.14-11.47.31:867][419]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2025.11.14-11.47.31:874][419]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-11.47.31:877][419]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-11.47.31
+[2025.11.14-11.47.31:877][419]LogWorld: Bringing up level for play took: 0.002903
+[2025.11.14-11.47.31:881][419]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2025.11.14-11.47.31:898][419]LogStreaming: Display: FlushAsyncLoading(4770,4769,4768,4767,4766,4765,4764,4763,4762,4761,4760,4759,4758,4757,4756,4755,4754,4753,4752,4751,4750,4749,4748,4747,4746,4745,4744,4743,4742,4741,4740,4739,4738,4737,4736,4735,4734,4730,4731,4732,4733,4729,4728,4725,4726,4727,4715,4716,4717,4718,4719,4720,4721,4722,4723,4724,4675,4676,4677,4678,4679,4680,4681,4682,4683,4684,4685,4686,4687,4688,4689,4690,4691,4692,4693,4694,4695,4696,4697,4698,4699,4700,4701,4702,4703,4704,4705,4706,4707,4708,4709,4710,4711,4712,4713,4714,4647,4648,4649,4650,4651,4652,4653,4654,4655,4656,4657,4658,4659,4660,4661,4662,4663,4664,4665,4666,4667,4668,4669,4670,4671,4672,4673,4674,4632,4633,4634,4635,4636,4637,4638,4639,4640,4641,4642,4643,4644,4645,4646,4614,4615,4616,4617,4618,4619,4620,4621,4622,4623,4624,4625,4626,4627,4628,4629,4630,4631,4568,4569,4570,4571,4572,4573,4574,4575,4576,4577,4578,4579,4580,4581,4582,4583,4584,4585,4586,4587,4588,4589,4590,4591,4592,4593,4594,4595,4596,4597,4598,4599,4600,4601,4602,4603,4604,4605,4606,4607,4608,4609,4610,4611,4612,4613,4567,4565,4566): 206 QueuedPackages, 0 AsyncPackages
+[2025.11.14-11.47.33:218][419]PIE: Server logged in
+[2025.11.14-11.47.33:221][419]PIE: Play in editor total start time 1.679 seconds.
+[2025.11.14-11.47.33:998][419]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-11.47.33:998][419]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-11.47.34:140][420]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-11.47.34:402][422]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-11.48.04:425][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.48.04:425][169]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.48.04:425][169]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-11.48.04:534][169]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-11.48.04:535][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.48.04:535][169]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-11.48.04:539][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-11.48.04:550][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.48.04:631][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.48.04:632][169]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2025.11.14-11.48.04:632][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=4
+[2025.11.14-11.48.04:636][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=2
+[2025.11.14-11.48.04:679][169]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2025.11.14-11.48.04:921][170]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2025.11.14-11.48.19:892][149]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-11.48.19:912][149]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-11.48.19:912][149]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-11.48.19:919][149]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.199 ms (total: 196.333 ms)
+[2025.11.14-11.48.19:954][149]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-11.48.19:954][149]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-11.48.19:960][149]LogFMOD: Default sample rate = 48000
+[2025.11.14-11.48.19:960][149]LogFMOD: System sample rate = 48000
+[2025.11.14-11.48.19:960][149]LogFMOD: Matching system sample rate 48000
+[2025.11.14-11.48.19:960][149]LogFMOD: CallbackHandler not set.
+[2025.11.14-11.48.19:996][149]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-11.48.20:023][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-11.48.20:023][149]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.48.20:074][149]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-11.48.20:085][149]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.299 ms (total: 269.755 ms)
+[2025.11.14-11.48.20:086][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062395s)
+[2025.11.14-11.48.20:086][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.062461s)
+[2025.11.14-11.48.20:138][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.11.14-11.48.20:142][149]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-11.48.20:144][149]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-11.48.20:145][149]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-11.48.20:145][149]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-11.48.20:145][149]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-11.48.20:162][149]LogWorldPartition: Display: WorldPartition initialize took 17.786 ms (total: 5.71 sec)
+[2025.11.14-11.48.20:162][149]LogPlayLevel: PIE: World Init took: (0.020666s)
+[2025.11.14-11.48.20:164][149]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.11.14-11.48.20:164][149]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-11.48.20:164][149]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-11.48.20:164][149]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-11.48.20:164][149]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-11.48.20:164][149]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-11.48.20:164][149]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-11.48.20:164][149]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-11.48.20:164][149]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-11.48.20:164][149]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-11.48.20:164][149]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-11.48.20:164][149]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-11.48.20:168][149]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-11.48.20:207][149]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-11.48.20:208][149]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-11.48.20:208][149]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-11.48.20:208][149]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-11.48.20:208][149]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2025.11.14-11.48.20:208][149]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2025.11.14-11.48.20:213][149]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2025.11.14-11.48.20:213][149]LogInit: FAudioDevice initialized with ID 27.
+[2025.11.14-11.48.20:214][149]LogAudio: Display: Audio Device (ID: 27) registered with world 'Level1'.
+[2025.11.14-11.48.20:214][149]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2025.11.14-11.48.20:214][149]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2025.11.14-11.48.20:272][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.48.20:272][149]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-11.48.20:276][149]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-11.48.20
+[2025.11.14-11.48.20:276][149]LogWorld: Bringing up level for play took: 0.003647
+[2025.11.14-11.48.20:281][149]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2025.11.14-11.48.20:296][149]LogStreaming: Display: FlushAsyncLoading(4973,4972,4971,4970,4969,4968,4967,4966,4965,4964,4963,4962,4961,4960,4959,4958,4957,4956,4955,4954,4953,4952,4951,4950,4949,4948,4947,4946,4945,4944,4943,4903,4904,4905,4906,4907,4908,4909,4910,4911,4912,4913,4914,4915,4916,4917,4918,4919,4920,4921,4922,4923,4924,4925,4926,4927,4928,4929,4930,4931,4932,4933,4934,4935,4936,4937,4938,4939,4940,4941,4942,4893,4894,4895,4896,4897,4898,4899,4900,4901,4902,4892,4877,4878,4879,4880,4881,4882,4883,4884,4885,4886,4887,4888,4889,4890,4891,4876,4873,4874,4875,4869,4870,4871,4872,4851,4852,4853,4854,4855,4856,4857,4858,4859,4860,4861,4862,4863,4864,4865,4866,4867,4868,4850,4849,4803,4804,4805,4806,4807,4808,4809,4810,4811,4812,4813,4814,4815,4816,4817,4818,4819,4820,4821,4822,4823,4824,4825,4826,4827,4828,4829,4830,4831,4832,4833,4834,4835,4836,4837,4838,4839,4840,4841,4842,4843,4844,4845,4846,4847,4848,4775,4776,4777,4778,4779,4780,4781,4782,4783,4784,4785,4786,4787,4788,4789,4790,4791,4792,4793,4794,4795,4796,4797,4798,4799,4800,4801,4802,4774,4772,4773): 202 QueuedPackages, 0 AsyncPackages
+[2025.11.14-11.48.21:772][149]PIE: Server logged in
+[2025.11.14-11.48.21:785][149]PIE: Play in editor total start time 1.873 seconds.
+[2025.11.14-11.48.22:703][149]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-11.48.22:703][149]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-11.48.22:774][149]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5506.436523
+[2025.11.14-11.48.22:789][150]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'BP_CombatEnemy_C_UAID_F02F741F95DDD8A102_1308922741', movement 'Walking'
+[2025.11.14-11.48.22:884][150]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-11.48.23:033][152]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-11.48.23:166][153]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-11.48.23:166][153]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5506.735840, Update Interval: 326.939301
+[2025.11.14-11.48.37:932][955]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 1.0
+[2025.11.14-11.48.54:038][841]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 2.0
+[2025.11.14-11.49.07:224][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.49.07:224][605]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.49.07:224][605]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-11.49.07:225][605]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-11.49.07:313][605]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-11.49.07:314][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.49.07:314][605]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-11.49.07:317][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-11.49.07:325][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.49.07:400][605]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2025.11.14-11.49.07:400][605]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=4
+[2025.11.14-11.49.07:403][605]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=2
+[2025.11.14-11.49.07:446][605]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2025.11.14-11.49.07:593][606]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2025.11.14-11.49.14:846][ 74]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Colabs5.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Intermediate/TurnkeyReport_2.log" -log="D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Intermediate/TurnkeyLog_2.log" -project="D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Colabs5.uproject"  -Device=Android@avd-Pixel_9'
+[2025.11.14-11.49.14:846][ 74]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Colabs5.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Intermediate/TurnkeyReport_2.log" -log="D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Intermediate/TurnkeyLog_2.log" -project="D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Colabs5.uproject"  -Device=Android@avd-Pixel_9" -nocompile -nocompileuat ]
+[2025.11.14-11.49.18:568][338]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.11.14-11.49.25:697][802]Cmd: DELETE
+[2025.11.14-11.49.25:697][802]Cmd: ACTOR DELETE
+[2025.11.14-11.49.25:708][802]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.14-11.49.25:775][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.11.14-11.49.25:780][802]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2025.11.14-11.49.35:131][490]Cmd: DELETE
+[2025.11.14-11.49.35:131][490]Cmd: ACTOR DELETE
+[2025.11.14-11.49.35:137][490]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.14-11.49.35:194][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.11.14-11.49.35:200][490]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2025.11.14-11.49.47:091][371]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-11.49.47:109][371]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-11.49.47:109][371]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-11.49.47:116][371]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.200 ms (total: 202.534 ms)
+[2025.11.14-11.49.47:143][371]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-11.49.47:143][371]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-11.49.47:151][371]LogFMOD: Default sample rate = 48000
+[2025.11.14-11.49.47:151][371]LogFMOD: System sample rate = 48000
+[2025.11.14-11.49.47:151][371]LogFMOD: Matching system sample rate 48000
+[2025.11.14-11.49.47:151][371]LogFMOD: CallbackHandler not set.
+[2025.11.14-11.49.47:188][371]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-11.49.47:223][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-11.49.47:223][371]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.49.47:274][371]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-11.49.47:285][371]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.326 ms (total: 280.081 ms)
+[2025.11.14-11.49.47:286][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062109s)
+[2025.11.14-11.49.47:286][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.062178s)
+[2025.11.14-11.49.47:339][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.11.14-11.49.47:343][371]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-11.49.47:347][371]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-11.49.47:347][371]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-11.49.47:347][371]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-11.49.47:347][371]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-11.49.47:366][371]LogWorldPartition: Display: WorldPartition initialize took 19.384 ms (total: 5.73 sec)
+[2025.11.14-11.49.47:366][371]LogPlayLevel: PIE: World Init took: (0.022904s)
+[2025.11.14-11.49.47:367][371]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.11.14-11.49.47:367][371]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-11.49.47:367][371]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-11.49.47:367][371]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-11.49.47:367][371]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-11.49.47:367][371]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-11.49.47:367][371]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-11.49.47:367][371]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-11.49.47:367][371]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-11.49.47:368][371]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-11.49.47:368][371]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-11.49.47:368][371]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-11.49.47:372][371]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-11.49.47:416][371]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-11.49.47:416][371]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-11.49.47:416][371]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-11.49.47:416][371]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-11.49.47:417][371]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.11.14-11.49.47:417][371]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2025.11.14-11.49.47:423][371]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.11.14-11.49.47:423][371]LogInit: FAudioDevice initialized with ID 28.
+[2025.11.14-11.49.47:423][371]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.11.14-11.49.47:423][371]LogAudio: Display: Audio Device (ID: 28) registered with world 'Level1'.
+[2025.11.14-11.49.47:423][371]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.11.14-11.49.47:478][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.49.47:479][371]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-11.49.47:482][371]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-11.49.47
+[2025.11.14-11.49.47:483][371]LogWorld: Bringing up level for play took: 0.003732
+[2025.11.14-11.49.47:487][371]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2025.11.14-11.49.47:505][371]LogStreaming: Display: FlushAsyncLoading(5173,5172,5171,5170,5169,5168,5167,5166,5165,5164,5163,5162,5161,5160,5159,5158,5157,5156,5155,5154,5153,5152,5151,5150,5149,5148,5147,5146,5145,5144,5143,5103,5104,5105,5106,5107,5108,5109,5110,5111,5112,5113,5114,5115,5116,5117,5118,5119,5120,5121,5122,5123,5124,5125,5126,5127,5128,5129,5130,5131,5132,5133,5134,5135,5136,5137,5138,5139,5140,5141,5142,5093,5094,5095,5096,5097,5098,5099,5100,5101,5102,5092,5077,5078,5079,5080,5081,5082,5083,5084,5085,5086,5087,5088,5089,5090,5091,5076,5073,5074,5075,5055,5056,5057,5058,5059,5060,5061,5062,5063,5064,5065,5066,5067,5068,5069,5070,5071,5072,5051,5052,5053,5054,5005,5006,5007,5008,5009,5010,5011,5012,5013,5014,5015,5016,5017,5018,5019,5020,5021,5022,5023,5024,5025,5026,5027,5028,5029,5030,5031,5032,5033,5034,5035,5036,5037,5038,5039,5040,5041,5042,5043,5044,5045,5046,5047,5048,5049,5050,5004,4976,4977,4978,4979,4980,4981,4982,4983,4984,4985,4986,4987,4988,4989,4990,4991,4992,4993,4994,4995,4996,4997,4998,4999,5000,5001,5002,5003,4975,4974): 200 QueuedPackages, 0 AsyncPackages
+[2025.11.14-11.49.48:790][371]PIE: Server logged in
+[2025.11.14-11.49.48:802][371]PIE: Play in editor total start time 1.693 seconds.
+[2025.11.14-11.49.49:619][371]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-11.49.49:619][371]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-11.49.49:696][372]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096592 > MaxSimulationTimeStep (0.050) for 'BP_CombatEnemy_C_UAID_F02F741F95DDD8A102_1308922741', movement 'Walking'
+[2025.11.14-11.49.49:748][372]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-11.49.49:884][374]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-11.50.08:816][425]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 1.0
+[2025.11.14-11.50.25:705][341]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 2.0
+[2025.11.14-11.50.58:295][199]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 3.0
+[2025.11.14-11.51.43:826][833]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 4.0
+[2025.11.14-11.51.55:706][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.51.55:706][517]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.51.55:706][517]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-11.51.55:706][517]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-11.51.55:792][517]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-11.51.55:792][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.51.55:792][517]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-11.51.55:795][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-11.51.55:802][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.51.55:881][517]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.11.14-11.51.55:881][517]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=4
+[2025.11.14-11.51.55:885][517]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=2
+[2025.11.14-11.51.55:926][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2025.11.14-11.51.55:996][518]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2025.11.14-11.52.20:751][303]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2025.11.14-11.52.20:755][303]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Level1' took 0.060
+[2025.11.14-11.52.35:399][398]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-11.52.35:417][398]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-11.52.35:417][398]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-11.52.35:424][398]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.391 ms (total: 208.925 ms)
+[2025.11.14-11.52.35:462][398]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-11.52.35:462][398]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-11.52.35:470][398]LogFMOD: Default sample rate = 48000
+[2025.11.14-11.52.35:470][398]LogFMOD: System sample rate = 48000
+[2025.11.14-11.52.35:470][398]LogFMOD: Matching system sample rate 48000
+[2025.11.14-11.52.35:470][398]LogFMOD: CallbackHandler not set.
+[2025.11.14-11.52.35:508][398]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-11.52.35:541][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-11.52.35:541][398]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.52.35:592][398]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-11.52.35:602][398]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.310 ms (total: 290.392 ms)
+[2025.11.14-11.52.35:603][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062133s)
+[2025.11.14-11.52.35:603][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.062202s)
+[2025.11.14-11.52.35:659][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.11.14-11.52.35:661][398]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-11.52.35:664][398]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-11.52.35:664][398]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-11.52.35:664][398]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-11.52.35:664][398]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-11.52.35:682][398]LogWorldPartition: Display: WorldPartition initialize took 18.421 ms (total: 5.75 sec)
+[2025.11.14-11.52.35:682][398]LogPlayLevel: PIE: World Init took: (0.021365s)
+[2025.11.14-11.52.35:684][398]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.11.14-11.52.35:684][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-11.52.35:684][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-11.52.35:684][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-11.52.35:684][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-11.52.35:684][398]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-11.52.35:684][398]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-11.52.35:684][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-11.52.35:684][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-11.52.35:684][398]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-11.52.35:684][398]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-11.52.35:684][398]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-11.52.35:688][398]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-11.52.35:727][398]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-11.52.35:728][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-11.52.35:728][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-11.52.35:728][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-11.52.35:728][398]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.11.14-11.52.35:728][398]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2025.11.14-11.52.35:733][398]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.11.14-11.52.35:734][398]LogInit: FAudioDevice initialized with ID 29.
+[2025.11.14-11.52.35:734][398]LogAudio: Display: Audio Device (ID: 29) registered with world 'Level1'.
+[2025.11.14-11.52.35:734][398]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.11.14-11.52.35:734][398]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.11.14-11.52.35:800][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.52.35:800][398]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-11.52.35:804][398]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-11.52.35
+[2025.11.14-11.52.35:804][398]LogWorld: Bringing up level for play took: 0.003770
+[2025.11.14-11.52.35:808][398]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2025.11.14-11.52.35:825][398]LogStreaming: Display: FlushAsyncLoading(5378,5377,5376,5375,5374,5373,5372,5371,5370,5369,5368,5367,5366,5365,5364,5363,5362,5361,5360,5359,5358,5357,5356,5355,5354,5353,5352,5351,5350,5349,5348,5308,5309,5310,5311,5312,5313,5314,5315,5316,5317,5318,5319,5320,5321,5322,5323,5324,5325,5326,5327,5328,5329,5330,5331,5332,5333,5334,5335,5336,5337,5338,5339,5340,5341,5342,5343,5344,5345,5346,5347,5298,5299,5300,5301,5302,5303,5304,5305,5306,5307,5297,5282,5283,5284,5285,5286,5287,5288,5289,5290,5291,5292,5293,5294,5295,5296,5281,5278,5279,5280,5260,5261,5262,5263,5264,5265,5266,5267,5268,5269,5270,5271,5272,5273,5274,5275,5276,5277,5256,5257,5258,5259,5210,5211,5212,5213,5214,5215,5216,5217,5218,5219,5220,5221,5222,5223,5224,5225,5226,5227,5228,5229,5230,5231,5232,5233,5234,5235,5236,5237,5238,5239,5240,5241,5242,5243,5244,5245,5246,5247,5248,5249,5250,5251,5252,5253,5254,5255,5209,5181,5182,5183,5184,5185,5186,5187,5188,5189,5190,5191,5192,5193,5194,5195,5196,5197,5198,5199,5200,5201,5202,5203,5204,5205,5206,5207,5208,5180,5179): 200 QueuedPackages, 0 AsyncPackages
+[2025.11.14-11.52.37:233][398]PIE: Server logged in
+[2025.11.14-11.52.37:245][398]PIE: Play in editor total start time 1.828 seconds.
+[2025.11.14-11.52.38:079][398]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-11.52.38:080][398]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-11.52.38:157][399]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096591 > MaxSimulationTimeStep (0.050) for 'BP_CombatEnemy_C_UAID_F02F741F95DDD8A102_1308922741', movement 'Walking'
+[2025.11.14-11.52.38:241][399]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-11.52.38:428][401]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-11.53.22:495][891]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 1.0
+[2025.11.14-11.54.01:041][131]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 2.0
+[2025.11.14-11.54.27:820][712]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5871.497559
+[2025.11.14-11.54.27:964][720]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-11.54.27:964][720]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5871.624512, Update Interval: 314.802704
+[2025.11.14-11.55.05:213][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.55.05:213][878]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.55.05:213][878]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-11.55.05:214][878]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-11.55.05:291][878]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-11.55.05:292][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.55.05:292][878]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-11.55.05:295][878]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-11.55.05:303][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.55.05:384][878]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.11.14-11.55.05:385][878]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=4
+[2025.11.14-11.55.05:388][878]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=2
+[2025.11.14-11.55.05:430][878]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2025.11.14-11.55.05:493][879]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2025.11.14-11.55.07:792][ 55]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-11.55.07:811][ 55]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-11.55.07:811][ 55]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-11.55.07:818][ 55]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.345 ms (total: 215.271 ms)
+[2025.11.14-11.55.07:849][ 55]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-11.55.07:849][ 55]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-11.55.07:856][ 55]LogFMOD: Default sample rate = 48000
+[2025.11.14-11.55.07:856][ 55]LogFMOD: System sample rate = 48000
+[2025.11.14-11.55.07:856][ 55]LogFMOD: Matching system sample rate 48000
+[2025.11.14-11.55.07:856][ 55]LogFMOD: CallbackHandler not set.
+[2025.11.14-11.55.07:892][ 55]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-11.55.07:919][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-11.55.07:919][ 55]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.55.07:972][ 55]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-11.55.07:982][ 55]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.687 ms (total: 301.079 ms)
+[2025.11.14-11.55.07:983][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063468s)
+[2025.11.14-11.55.07:983][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.063541s)
+[2025.11.14-11.55.08:037][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.11.14-11.55.08:039][ 55]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-11.55.08:042][ 55]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-11.55.08:042][ 55]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-11.55.08:042][ 55]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-11.55.08:042][ 55]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-11.55.08:060][ 55]LogWorldPartition: Display: WorldPartition initialize took 17.886 ms (total: 5.77 sec)
+[2025.11.14-11.55.08:060][ 55]LogPlayLevel: PIE: World Init took: (0.020971s)
+[2025.11.14-11.55.08:062][ 55]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.11.14-11.55.08:062][ 55]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-11.55.08:062][ 55]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-11.55.08:062][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-11.55.08:062][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-11.55.08:062][ 55]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-11.55.08:062][ 55]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-11.55.08:062][ 55]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-11.55.08:062][ 55]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-11.55.08:062][ 55]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-11.55.08:062][ 55]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-11.55.08:062][ 55]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-11.55.08:066][ 55]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-11.55.08:106][ 55]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-11.55.08:106][ 55]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-11.55.08:106][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-11.55.08:106][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-11.55.08:106][ 55]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.11.14-11.55.08:106][ 55]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2025.11.14-11.55.08:112][ 55]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.11.14-11.55.08:112][ 55]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.11.14-11.55.08:112][ 55]LogInit: FAudioDevice initialized with ID 30.
+[2025.11.14-11.55.08:112][ 55]LogAudio: Display: Audio Device (ID: 30) registered with world 'Level1'.
+[2025.11.14-11.55.08:112][ 55]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.11.14-11.55.08:177][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.55.08:178][ 55]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-11.55.08:180][ 55]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-11.55.08
+[2025.11.14-11.55.08:182][ 55]LogWorld: Bringing up level for play took: 0.003709
+[2025.11.14-11.55.08:186][ 55]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2025.11.14-11.55.08:201][ 55]LogStreaming: Display: FlushAsyncLoading(5582,5581,5580,5579,5578,5577,5576,5575,5574,5573,5572,5571,5570,5569,5568,5567,5566,5565,5564,5563,5562,5561,5560,5559,5558,5557,5556,5555,5554,5553,5552,5512,5513,5514,5515,5516,5517,5518,5519,5520,5521,5522,5523,5524,5525,5526,5527,5528,5529,5530,5531,5532,5533,5534,5535,5536,5537,5538,5539,5540,5541,5542,5543,5544,5545,5546,5547,5548,5549,5550,5551,5502,5503,5504,5505,5506,5507,5508,5509,5510,5511,5501,5486,5487,5488,5489,5490,5491,5492,5493,5494,5495,5496,5497,5498,5499,5500,5485,5482,5483,5484,5464,5465,5466,5467,5468,5469,5470,5471,5472,5473,5474,5475,5476,5477,5478,5479,5480,5481,5460,5461,5462,5463,5414,5415,5416,5417,5418,5419,5420,5421,5422,5423,5424,5425,5426,5427,5428,5429,5430,5431,5432,5433,5434,5435,5436,5437,5438,5439,5440,5441,5442,5443,5444,5445,5446,5447,5448,5449,5450,5451,5452,5453,5454,5455,5456,5457,5458,5459,5413,5385,5386,5387,5388,5389,5390,5391,5392,5393,5394,5395,5396,5397,5398,5399,5400,5401,5402,5403,5404,5405,5406,5407,5408,5409,5410,5411,5412,5384,5383): 200 QueuedPackages, 0 AsyncPackages
+[2025.11.14-11.55.09:668][ 55]PIE: Server logged in
+[2025.11.14-11.55.09:681][ 55]PIE: Play in editor total start time 1.869 seconds.
+[2025.11.14-11.55.10:652][ 55]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-11.55.10:652][ 55]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-11.55.10:721][ 56]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096592 > MaxSimulationTimeStep (0.050) for 'BP_CombatEnemy_C_UAID_F02F741F95DDD8A102_1308922741', movement 'Walking'
+[2025.11.14-11.55.10:803][ 56]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-11.55.11:038][ 59]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-11.55.33:312][276]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 1.0
+[2025.11.14-11.55.36:108][425]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 2.0
+[2025.11.14-11.56.23:785][216]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 3.0
+[2025.11.14-11.56.44:805][410]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 4.0
+[2025.11.14-11.56.51:524][794]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 5.0
+[2025.11.14-11.57.01:138][361]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_Level1_33PWGBA1LF08X8E5O05RAUW4Z took (less than) 22.25 ms
+[2025.11.14-11.57.08:414][784]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 6.0
+[2025.11.14-11.57.23:811][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-11.57.23:811][691]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-11.57.23:811][691]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-11.57.23:812][691]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-11.57.23:893][691]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-11.57.23:894][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.57.23:895][691]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-11.57.23:896][691]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-11.57.23:904][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-11.57.23:979][691]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.11.14-11.57.23:979][691]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30, StreamState=4
+[2025.11.14-11.57.23:983][691]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30, StreamState=2
+[2025.11.14-11.57.24:021][691]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2025.11.14-11.57.24:088][692]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2025.11.14-11.58.24:631][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.11.14-11.58.24:641][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-11.58.24:749][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.11.14-11.58.24:805][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.11.14-11.58.24:860][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.11.14-11.58.24:904][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 263.884 ms (total: 4.03 sec)
+[2025.11.14-12.00.28:447][411]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6232.164551
+[2025.11.14-12.00.28:613][423]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-12.00.28:613][423]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6232.315918, Update Interval: 337.037872
+[2025.11.14-12.06.55:411][732]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6619.197754
+[2025.11.14-12.06.55:559][742]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-12.06.55:559][742]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6619.324707, Update Interval: 326.684784
+[2025.11.14-12.08.04:642][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2025.11.14-12.08.34:923][706]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-12.08.34:943][706]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-12.08.34:944][706]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-12.08.34:950][706]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.602 ms (total: 221.873 ms)
+[2025.11.14-12.08.34:979][706]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-12.08.34:979][706]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-12.08.34:988][706]LogFMOD: Default sample rate = 48000
+[2025.11.14-12.08.34:988][706]LogFMOD: System sample rate = 48000
+[2025.11.14-12.08.34:988][706]LogFMOD: Matching system sample rate 48000
+[2025.11.14-12.08.34:988][706]LogFMOD: CallbackHandler not set.
+[2025.11.14-12.08.35:032][706]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-12.08.35:058][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-12.08.35:058][706]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.08.35:109][706]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-12.08.35:119][706]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.329 ms (total: 311.408 ms)
+[2025.11.14-12.08.35:121][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062610s)
+[2025.11.14-12.08.35:121][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.062687s)
+[2025.11.14-12.08.35:181][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.11.14-12.08.35:183][706]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-12.08.35:186][706]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-12.08.35:186][706]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-12.08.35:186][706]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-12.08.35:186][706]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-12.08.35:204][706]LogWorldPartition: Display: WorldPartition initialize took 17.784 ms (total: 5.78 sec)
+[2025.11.14-12.08.35:205][706]LogPlayLevel: PIE: World Init took: (0.021270s)
+[2025.11.14-12.08.35:206][706]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2025.11.14-12.08.35:206][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-12.08.35:206][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-12.08.35:206][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-12.08.35:206][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-12.08.35:206][706]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-12.08.35:206][706]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-12.08.35:206][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-12.08.35:206][706]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-12.08.35:206][706]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-12.08.35:206][706]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-12.08.35:206][706]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-12.08.35:210][706]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-12.08.35:250][706]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-12.08.35:251][706]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-12.08.35:251][706]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-12.08.35:251][706]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-12.08.35:251][706]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2025.11.14-12.08.35:251][706]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2025.11.14-12.08.35:257][706]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2025.11.14-12.08.35:257][706]LogInit: FAudioDevice initialized with ID 31.
+[2025.11.14-12.08.35:257][706]LogAudio: Display: Audio Device (ID: 31) registered with world 'Level1'.
+[2025.11.14-12.08.35:257][706]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2025.11.14-12.08.35:257][706]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2025.11.14-12.08.35:317][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.08.35:317][706]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-12.08.35:321][706]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-12.08.35
+[2025.11.14-12.08.35:321][706]LogWorld: Bringing up level for play took: 0.003942
+[2025.11.14-12.08.35:326][706]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2025.11.14-12.08.35:343][706]LogStreaming: Display: FlushAsyncLoading(5788,5787,5786,5785,5784,5783,5782,5781,5780,5779,5778,5777,5776,5775,5774,5773,5772,5771,5770,5769,5768,5767,5766,5765,5764,5763,5762,5761,5760,5759,5758,5718,5719,5720,5721,5722,5723,5724,5725,5726,5727,5728,5729,5730,5731,5732,5733,5734,5735,5736,5737,5738,5739,5740,5741,5742,5743,5744,5745,5746,5747,5748,5749,5750,5751,5752,5753,5754,5755,5756,5757,5708,5709,5710,5711,5712,5713,5714,5715,5716,5717,5707,5692,5693,5694,5695,5696,5697,5698,5699,5700,5701,5702,5703,5704,5705,5706,5691,5688,5689,5690,5670,5671,5672,5673,5674,5675,5676,5677,5678,5679,5680,5681,5682,5683,5684,5685,5686,5687,5666,5667,5668,5669,5620,5621,5622,5623,5624,5625,5626,5627,5628,5629,5630,5631,5632,5633,5634,5635,5636,5637,5638,5639,5640,5641,5642,5643,5644,5645,5646,5647,5648,5649,5650,5651,5652,5653,5654,5655,5656,5657,5658,5659,5660,5661,5662,5663,5664,5665,5619,5591,5592,5593,5594,5595,5596,5597,5598,5599,5600,5601,5602,5603,5604,5605,5606,5607,5608,5609,5610,5611,5612,5613,5614,5615,5616,5617,5618,5590,5589): 200 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.08.36:807][706]PIE: Server logged in
+[2025.11.14-12.08.36:820][706]PIE: Play in editor total start time 1.877 seconds.
+[2025.11.14-12.08.37:716][706]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-12.08.37:716][706]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-12.08.37:796][707]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.098644 > MaxSimulationTimeStep (0.050) for 'BP_CombatEnemy_C_UAID_F02F741F95DDD8A102_1308922741', movement 'Walking'
+[2025.11.14-12.08.37:869][707]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-12.08.38:043][709]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-12.09.35:175][956]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 1.0
+[2025.11.14-12.09.36:731][ 39]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 2.0
+[2025.11.14-12.09.54:471][ 73]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 3.0
+[2025.11.14-12.10.57:179][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.10.57:179][805]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.10.57:179][805]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-12.10.57:180][805]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-12.10.57:293][805]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.10.57:294][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.10.57:294][805]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-12.10.57:296][805]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-12.10.57:304][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.10.57:381][805]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2025.11.14-12.10.57:382][805]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31, StreamState=4
+[2025.11.14-12.10.57:385][805]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31, StreamState=2
+[2025.11.14-12.10.57:425][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.11.14-12.10.57:556][806]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2025.11.14-12.11.53:690][720]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-12.11.53:711][720]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-12.11.53:711][720]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-12.11.53:718][720]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.155 ms (total: 228.028 ms)
+[2025.11.14-12.11.53:768][720]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-12.11.53:768][720]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-12.11.53:774][720]LogFMOD: Default sample rate = 48000
+[2025.11.14-12.11.53:774][720]LogFMOD: System sample rate = 48000
+[2025.11.14-12.11.53:774][720]LogFMOD: Matching system sample rate 48000
+[2025.11.14-12.11.53:774][720]LogFMOD: CallbackHandler not set.
+[2025.11.14-12.11.53:811][720]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-12.11.53:838][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-12.11.53:838][720]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.11.53:890][720]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-12.11.53:900][720]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.385 ms (total: 321.794 ms)
+[2025.11.14-12.11.53:901][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062425s)
+[2025.11.14-12.11.53:901][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.062493s)
+[2025.11.14-12.11.53:958][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.11.14-12.11.53:961][720]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-12.11.53:964][720]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-12.11.53:964][720]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-12.11.53:964][720]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-12.11.53:964][720]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-12.11.53:981][720]LogWorldPartition: Display: WorldPartition initialize took 17.843 ms (total: 5.80 sec)
+[2025.11.14-12.11.53:982][720]LogPlayLevel: PIE: World Init took: (0.020744s)
+[2025.11.14-12.11.53:983][720]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2025.11.14-12.11.53:983][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-12.11.53:983][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-12.11.53:983][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-12.11.53:983][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-12.11.53:983][720]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-12.11.53:983][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-12.11.53:983][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-12.11.53:983][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-12.11.53:983][720]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-12.11.53:983][720]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-12.11.53:983][720]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-12.11.53:988][720]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-12.11.54:030][720]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-12.11.54:031][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-12.11.54:031][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-12.11.54:031][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-12.11.54:031][720]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2025.11.14-12.11.54:031][720]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2025.11.14-12.11.54:035][720]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2025.11.14-12.11.54:035][720]LogInit: FAudioDevice initialized with ID 32.
+[2025.11.14-12.11.54:035][720]LogAudio: Display: Audio Device (ID: 32) registered with world 'Level1'.
+[2025.11.14-12.11.54:035][720]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2025.11.14-12.11.54:035][720]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2025.11.14-12.11.54:101][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.11.54:101][720]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-12.11.54:105][720]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-12.11.54
+[2025.11.14-12.11.54:105][720]LogWorld: Bringing up level for play took: 0.003579
+[2025.11.14-12.11.54:110][720]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2025.11.14-12.11.54:125][720]LogStreaming: Display: FlushAsyncLoading(6001,6000,5999,5998,5997,5996,5995,5994,5993,5992,5991,5990,5989,5988,5987,5986,5985,5984,5983,5982,5981,5980,5979,5978,5977,5976,5975,5974,5973,5972,5971,5931,5932,5933,5934,5935,5936,5937,5938,5939,5940,5941,5942,5943,5944,5945,5946,5947,5948,5949,5950,5951,5952,5953,5954,5955,5956,5957,5958,5959,5960,5961,5962,5963,5964,5965,5966,5967,5968,5969,5970,5921,5922,5923,5924,5925,5926,5927,5928,5929,5930,5920,5905,5906,5907,5908,5909,5910,5911,5912,5913,5914,5915,5916,5917,5918,5919,5904,5901,5902,5903,5883,5884,5885,5886,5887,5888,5889,5890,5891,5892,5893,5894,5895,5896,5897,5898,5899,5900,5879,5880,5881,5882,5833,5834,5835,5836,5837,5838,5839,5840,5841,5842,5843,5844,5845,5846,5847,5848,5849,5850,5851,5852,5853,5854,5855,5856,5857,5858,5859,5860,5861,5862,5863,5864,5865,5866,5867,5868,5869,5870,5871,5872,5873,5874,5875,5876,5877,5878,5832,5804,5805,5806,5807,5808,5809,5810,5811,5812,5813,5814,5815,5816,5817,5818,5819,5820,5821,5822,5823,5824,5825,5826,5827,5828,5829,5830,5831,5803,5802): 200 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.11.55:526][720]PIE: Server logged in
+[2025.11.14-12.11.55:539][720]PIE: Play in editor total start time 1.827 seconds.
+[2025.11.14-12.11.56:232][720]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-12.11.56:232][720]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-12.11.56:317][721]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.097089 > MaxSimulationTimeStep (0.050) for 'BP_CombatEnemy_C_UAID_F02F741F95DDD8A102_1308922741', movement 'Walking'
+[2025.11.14-12.11.56:388][721]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-12.11.56:520][723]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-12.12.09:220][412]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 1.0
+[2025.11.14-12.13.11:936][252]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6995.779785
+[2025.11.14-12.13.12:080][261]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-12.13.12:080][261]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6995.909180, Update Interval: 352.054810
+[2025.11.14-12.15.09:754][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.15.09:754][415]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.15.09:754][415]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-12.15.09:754][415]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-12.15.09:846][415]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.15.09:847][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.15.09:847][415]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-12.15.09:850][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-12.15.09:861][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.15.09:940][415]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2025.11.14-12.15.09:941][415]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32, StreamState=4
+[2025.11.14-12.15.09:944][415]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32, StreamState=2
+[2025.11.14-12.15.09:988][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.11.14-12.15.10:128][416]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.11.14-12.16.25:471][968]LogPathView: [ContentBrowserDrawer][PathView] HandleSettingChanged None
+[2025.11.14-12.16.25:472][968]LogPathView: [ContentBrowserDrawer][PathView] HandleSettingChanged None
+[2025.11.14-12.16.27:425][103]LogStreaming: Display: FlushAsyncLoading(6002): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.16.27:475][104]LogSlate: Took 0.001634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.11.14-12.16.31:769][375]LogStreaming: Display: FlushAsyncLoading(6003): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.16.36:611][642]LogStreaming: Display: FlushAsyncLoading(6004): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.16.39:152][779]LogStreaming: Display: FlushAsyncLoading(6005): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.16.44:191][131]LogStreaming: Display: FlushAsyncLoading(6006): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.17.06:908][638]LogDerivedDataCache: C:/Users/23676935/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.14-12.17.27:498][ 47]LogStreaming: Display: FlushAsyncLoading(6007): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.17.33:297][449]LogTemp: Warning: UI Min (1.0) >= UI Max (.01) for Ranged Numeric property /Script/Engine.PostProcessSettings:LumenDiffuseColorBoost
+[2025.11.14-12.17.38:683][835]LogPSOHitching: Encountered 550 PSO creation hitches so far (267 graphics, 283 compute). 0 of them were precached.
+[2025.11.14-12.17.38:722][835]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.11.14-12.17.38:822][835]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.11.14-12.17.38:996][835]LogPSOHitching: Encountered 600 PSO creation hitches so far (269 graphics, 331 compute). 0 of them were precached.
+[2025.11.14-12.17.39:021][836]LogD3D12RHI: Waited for PSO creation for 400.000000ms
+[2025.11.14-12.17.40:358][886]LogPSOHitching: Encountered 650 PSO creation hitches so far (286 graphics, 364 compute). 0 of them were precached.
+[2025.11.14-12.18.26:257][225]Cmd: DELETE
+[2025.11.14-12.18.26:257][225]Cmd: ACTOR DELETE
+[2025.11.14-12.18.26:266][225]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2025.11.14-12.18.26:328][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.11.14-12.18.26:334][225]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2025.11.14-12.18.48:300][803]LogStreaming: Display: FlushAsyncLoading(6008): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.19.19:540][907]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.14-12.19.25:349][303]LogTemp: Warning: UI Min (1.0) >= UI Max (.01) for Ranged Numeric property /Script/Engine.PostProcessSettings:LumenDiffuseColorBoost
+[2025.11.14-12.19.37:467][269]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7381.314453
+[2025.11.14-12.19.37:606][280]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-12.19.37:607][280]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7381.443359, Update Interval: 336.213867
+[2025.11.14-12.20.13:760][179]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-12.20.13:781][179]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-12.20.13:781][179]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-12.20.13:788][179]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.734 ms (total: 234.763 ms)
+[2025.11.14-12.20.13:819][179]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-12.20.13:819][179]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-12.20.13:827][179]LogFMOD: Default sample rate = 48000
+[2025.11.14-12.20.13:827][179]LogFMOD: System sample rate = 48000
+[2025.11.14-12.20.13:827][179]LogFMOD: Matching system sample rate 48000
+[2025.11.14-12.20.13:827][179]LogFMOD: CallbackHandler not set.
+[2025.11.14-12.20.13:865][179]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-12.20.13:899][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-12.20.13:899][179]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.20.13:951][179]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-12.20.13:961][179]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.324 ms (total: 332.119 ms)
+[2025.11.14-12.20.13:961][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062694s)
+[2025.11.14-12.20.13:961][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.062768s)
+[2025.11.14-12.20.14:020][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2025.11.14-12.20.14:023][179]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-12.20.14:027][179]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-12.20.14:027][179]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-12.20.14:027][179]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-12.20.14:027][179]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-12.20.14:046][179]LogWorldPartition: Display: WorldPartition initialize took 18.554 ms (total: 5.82 sec)
+[2025.11.14-12.20.14:046][179]LogPlayLevel: PIE: World Init took: (0.021970s)
+[2025.11.14-12.20.14:047][179]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2025.11.14-12.20.14:047][179]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-12.20.14:047][179]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-12.20.14:047][179]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-12.20.14:047][179]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-12.20.14:047][179]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-12.20.14:047][179]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-12.20.14:047][179]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-12.20.14:047][179]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-12.20.14:047][179]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-12.20.14:047][179]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-12.20.14:047][179]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-12.20.14:051][179]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-12.20.14:094][179]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-12.20.14:094][179]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-12.20.14:094][179]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-12.20.14:094][179]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-12.20.14:095][179]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2025.11.14-12.20.14:095][179]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2025.11.14-12.20.14:100][179]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2025.11.14-12.20.14:100][179]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2025.11.14-12.20.14:100][179]LogInit: FAudioDevice initialized with ID 33.
+[2025.11.14-12.20.14:100][179]LogAudio: Display: Audio Device (ID: 33) registered with world 'Level1'.
+[2025.11.14-12.20.14:100][179]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2025.11.14-12.20.14:136][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.20.14:136][179]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-12.20.14:140][179]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-12.20.14
+[2025.11.14-12.20.14:140][179]LogWorld: Bringing up level for play took: 0.003768
+[2025.11.14-12.20.14:146][179]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2025.11.14-12.20.14:162][179]LogStreaming: Display: FlushAsyncLoading(6208,6207,6206,6205,6204,6203,6202,6201,6200,6199,6198,6197,6196,6195,6194,6193,6192,6191,6190,6189,6188,6187,6186,6185,6184,6183,6182,6181,6180,6179,6178,6138,6139,6140,6141,6142,6143,6144,6145,6146,6147,6148,6149,6150,6151,6152,6153,6154,6155,6156,6157,6158,6159,6160,6161,6162,6163,6164,6165,6166,6167,6168,6169,6170,6171,6172,6173,6174,6175,6176,6177,6128,6129,6130,6131,6132,6133,6134,6135,6136,6137,6127,6112,6113,6114,6115,6116,6117,6118,6119,6120,6121,6122,6123,6124,6125,6126,6111,6108,6109,6110,6090,6091,6092,6093,6094,6095,6096,6097,6098,6099,6100,6101,6102,6103,6104,6105,6106,6107,6086,6087,6088,6089,6040,6041,6042,6043,6044,6045,6046,6047,6048,6049,6050,6051,6052,6053,6054,6055,6056,6057,6058,6059,6060,6061,6062,6063,6064,6065,6066,6067,6068,6069,6070,6071,6072,6073,6074,6075,6076,6077,6078,6079,6080,6081,6082,6083,6084,6085,6039,6011,6012,6013,6014,6015,6016,6017,6018,6019,6020,6021,6022,6023,6024,6025,6026,6027,6028,6029,6030,6031,6032,6033,6034,6035,6036,6037,6038,6010,6009): 200 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.20.15:480][179]PIE: Server logged in
+[2025.11.14-12.20.15:493][179]PIE: Play in editor total start time 1.713 seconds.
+[2025.11.14-12.20.16:308][179]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-12.20.16:308][179]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-12.20.16:382][180]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096689 > MaxSimulationTimeStep (0.050) for 'BP_CombatEnemy_C_UAID_F02F741F95DDD8A102_1308922741', movement 'Walking'
+[2025.11.14-12.20.16:507][182]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-12.20.18:911][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.20.18:911][315]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.20.18:911][315]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-12.20.18:912][315]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-12.20.18:991][315]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.20.18:992][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.20.18:992][315]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-12.20.18:994][315]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-12.20.19:001][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.20.19:078][315]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2025.11.14-12.20.19:078][315]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=4
+[2025.11.14-12.20.19:082][315]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=2
+[2025.11.14-12.20.19:122][315]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.11.14-12.20.19:246][316]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2025.11.14-12.20.29:629][ 29]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.29:629][ 29]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.14-12.20.29:872][ 29]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.29:872][ 29]LogEditorTransaction: Undo Edit Quality
+[2025.11.14-12.20.29:996][ 30]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.29:996][ 30]LogEditorTransaction: Undo Edit Quality
+[2025.11.14-12.20.30:195][ 33]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.30:195][ 33]LogEditorTransaction: Undo Edit Condition Changed
+[2025.11.14-12.20.30:421][ 47]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.30:421][ 47]LogEditorTransaction: Undo Edit Method
+[2025.11.14-12.20.30:613][ 58]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.30:613][ 58]LogEditorTransaction: Undo Edit Method
+[2025.11.14-12.20.30:869][ 75]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.30:870][ 75]LogEditorTransaction: Undo Edit Method
+[2025.11.14-12.20.31:128][ 91]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.31:128][ 91]LogEditorTransaction: Undo Edit Condition Changed
+[2025.11.14-12.20.31:373][106]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.31:373][106]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.31:603][113]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.31:603][113]LogEditorTransaction: Undo Edit Light Color
+[2025.11.14-12.20.31:841][123]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.31:841][123]LogEditorTransaction: Undo Edit Intensity Scale
+[2025.11.14-12.20.32:036][134]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.32:036][134]LogEditorTransaction: Undo Edit Cubemap
+[2025.11.14-12.20.32:358][153]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.32:358][153]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.32:660][175]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.32:660][175]LogEditorTransaction: Undo Delete Elements
+[2025.11.14-12.20.32:916][183]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.32:916][183]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.33:438][203]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.33:438][203]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.36:741][393]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.36:741][393]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.37:344][413]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.37:344][413]LogEditorTransaction: Undo Edit Method
+[2025.11.14-12.20.37:785][417]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.37:785][417]LogEditorTransaction: Undo Edit Condition Changed
+[2025.11.14-12.20.38:200][437]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.38:200][437]LogEditorTransaction: Undo Edit Condition Changed
+[2025.11.14-12.20.38:598][457]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.38:599][457]LogEditorTransaction: Undo Edit Condition Changed
+[2025.11.14-12.20.39:793][535]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.39:793][535]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.40:186][552]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.40:186][552]LogEditorTransaction: Undo Edit Source Type
+[2025.11.14-12.20.40:493][566]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.40:493][566]LogEditorTransaction: Undo Edit Source Type
+[2025.11.14-12.20.40:853][588]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.40:853][588]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.41:056][589]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.41:056][589]LogEditorTransaction: Undo Edit Intensity
+[2025.11.14-12.20.41:296][592]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.41:296][592]LogEditorTransaction: Undo Edit Intensity
+[2025.11.14-12.20.41:479][594]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.41:479][594]LogEditorTransaction: Undo Rotate Elements
+[2025.11.14-12.20.41:655][603]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.41:655][603]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.41:885][612]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.41:885][612]LogEditorTransaction: Undo Edit Cubemap
+[2025.11.14-12.20.42:189][629]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.42:189][629]LogEditorTransaction: Undo Edit Cubemap
+[2025.11.14-12.20.42:424][643]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.42:424][643]LogEditorTransaction: Undo Edit Cubemap
+[2025.11.14-12.20.42:772][664]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.42:772][664]LogEditorTransaction: Undo Edit Cubemap
+[2025.11.14-12.20.43:169][688]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.43:169][688]LogEditorTransaction: Undo Edit Cubemap
+[2025.11.14-12.20.43:526][710]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.43:526][710]LogEditorTransaction: Undo Edit Cubemap
+[2025.11.14-12.20.44:456][767]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.44:456][767]LogEditorTransaction: Undo Edit Source Type
+[2025.11.14-12.20.45:202][780]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.20.45:214][781]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.20.50:314][104]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.50:314][104]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.14-12.20.50:920][112]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.50:921][112]LogEditorTransaction: Undo Edit Real Time Capture
+[2025.11.14-12.20.51:661][161]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.51:661][161]LogEditorTransaction: Undo Clicking on Actors
+[2025.11.14-12.20.52:395][194]Cmd: TRANSACTION UNDO
+[2025.11.14-12.20.52:395][194]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.14-12.20.59:260][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.11.14-12.22.31:849][290]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.32:058][292]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.33:605][386]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.33:651][387]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.33:741][390]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.33:782][391]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.34:624][441]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.34:708][442]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.34:852][449]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.35:026][450]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.35:044][451]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.35:060][452]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.35:147][453]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.11.14-12.22.35:156][453]LogPSOHitching: Encountered 700 PSO creation hitches so far (312 graphics, 388 compute). 0 of them were precached.
+[2025.11.14-12.22.35:455][474]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.35:468][475]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.22.39:203][731]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: ================================================
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Total job queries 20,623, among them cache hits 6,025 (29.21%), DDC hits 12,371 (59.99%), Duplicates 1,352 (6.56%)
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Tracking 13,246 distinct input hashes that result in 12,066 distinct outputs (91.09%)
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: RAM used: 159.81 MiB of 6.40 GiB budget. Usage: 2.44%
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Shaders Compiled: 875
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Jobs assigned 875, completed 875 (100%)
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Average time worker was idle: 185.18 s
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Time job spent in pending queue: average 5.65 s, longest 32.94 s
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Job execution time: average 7.11 s, max 47.36 s
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Job life time (pending + execution): average 12.76 s, max 48.16
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Shader code size: total 11.658 MiB, numShaders 913, average 13.075 KiB, min 1.167 KiB, max 55.505 KiB
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 216.92 s
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.06%
+[2025.11.14-12.23.08:407][928]LogShaderCompilers: Display: Jobs were issued in 410 batches (only local compilation was used), average 2.13 jobs/batch
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Average processing rate: 4.03 jobs/sec
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Total thread time: 1,743.241 s
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Total thread preprocess time: 472.98 s
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Percentage time preprocessing: 27.13%
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Effective parallelization: 8.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.502259
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:            TBasePassPSFNoLightMapPolicySkylightForceVelocity (compiled    1 times, average 40.99 sec, max 40.99 sec, min 40.99 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    4 times, average 22.57 sec, max 31.24 sec, min 13.00 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    6 times, average 16.32 sec, max 29.71 sec, min 3.68 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    2 times, average 15.31 sec, max 20.58 sec, min 10.03 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   14 times, average 5.98 sec, max 21.05 sec, min 1.88 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 19.73% of total time (compiled   80 times, average 4.30 sec, max 5.13 sec, min 3.49 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 10.21% of total time (compiled   42 times, average 4.24 sec, max 29.38 sec, min 0.92 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.86% of total time (compiled   79 times, average 1.51 sec, max 19.06 sec, min 0.52 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 5.62% of total time (compiled    6 times, average 16.32 sec, max 29.71 sec, min 3.68 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.32% of total time (compiled   71 times, average 1.31 sec, max 17.88 sec, min 0.28 sec)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: === Material stats ===
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Materials Translated:    226
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Material Total Translate Time: 0.36 s
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Material Translation Only: 0.14 s (40%)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: Material Cache Hits: 11 (5%)
+[2025.11.14-12.23.08:408][928]LogShaderCompilers: Display: ================================================
+[2025.11.14-12.24.34:022][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.11.14-12.24.34:965][308]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-12.24.34:986][308]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-12.24.34:986][308]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-12.24.34:993][308]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.482 ms (total: 241.245 ms)
+[2025.11.14-12.24.35:020][308]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-12.24.35:020][308]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-12.24.35:029][308]LogFMOD: Default sample rate = 48000
+[2025.11.14-12.24.35:029][308]LogFMOD: System sample rate = 48000
+[2025.11.14-12.24.35:029][308]LogFMOD: Matching system sample rate 48000
+[2025.11.14-12.24.35:029][308]LogFMOD: CallbackHandler not set.
+[2025.11.14-12.24.35:070][308]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-12.24.35:101][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-12.24.35:102][308]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.24.35:154][308]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-12.24.35:164][308]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.324 ms (total: 342.443 ms)
+[2025.11.14-12.24.35:165][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063240s)
+[2025.11.14-12.24.35:165][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.063315s)
+[2025.11.14-12.24.35:220][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.11.14-12.24.35:223][308]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-12.24.35:226][308]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-12.24.35:226][308]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-12.24.35:226][308]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-12.24.35:226][308]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-12.24.35:244][308]LogWorldPartition: Display: WorldPartition initialize took 17.734 ms (total: 5.84 sec)
+[2025.11.14-12.24.35:244][308]LogPlayLevel: PIE: World Init took: (0.021171s)
+[2025.11.14-12.24.35:246][308]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2025.11.14-12.24.35:246][308]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-12.24.35:246][308]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-12.24.35:246][308]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-12.24.35:246][308]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-12.24.35:246][308]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-12.24.35:246][308]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-12.24.35:246][308]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-12.24.35:246][308]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-12.24.35:246][308]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-12.24.35:246][308]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-12.24.35:246][308]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-12.24.35:249][308]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-12.24.35:293][308]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-12.24.35:293][308]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-12.24.35:293][308]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-12.24.35:293][308]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-12.24.35:293][308]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2025.11.14-12.24.35:293][308]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2025.11.14-12.24.35:298][308]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2025.11.14-12.24.35:298][308]LogInit: FAudioDevice initialized with ID 34.
+[2025.11.14-12.24.35:298][308]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2025.11.14-12.24.35:298][308]LogAudio: Display: Audio Device (ID: 34) registered with world 'Level1'.
+[2025.11.14-12.24.35:298][308]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2025.11.14-12.24.35:356][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.24.35:356][308]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-12.24.35:359][308]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-12.24.35
+[2025.11.14-12.24.35:360][308]LogWorld: Bringing up level for play took: 0.003767
+[2025.11.14-12.24.35:365][308]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2025.11.14-12.24.35:381][308]LogStreaming: Display: FlushAsyncLoading(6408,6407,6406,6405,6404,6403,6402,6401,6400,6399,6398,6397,6396,6395,6394,6393,6392,6391,6390,6389,6388,6387,6386,6385,6384,6383,6382,6381,6380,6379,6378,6338,6339,6340,6341,6342,6343,6344,6345,6346,6347,6348,6349,6350,6351,6352,6353,6354,6355,6356,6357,6358,6359,6360,6361,6362,6363,6364,6365,6366,6367,6368,6369,6370,6371,6372,6373,6374,6375,6376,6377,6328,6329,6330,6331,6332,6333,6334,6335,6336,6337,6327,6312,6313,6314,6315,6316,6317,6318,6319,6320,6321,6322,6323,6324,6325,6326,6311,6308,6309,6310,6290,6291,6292,6293,6294,6295,6296,6297,6298,6299,6300,6301,6302,6303,6304,6305,6306,6307,6286,6287,6288,6289,6240,6241,6242,6243,6244,6245,6246,6247,6248,6249,6250,6251,6252,6253,6254,6255,6256,6257,6258,6259,6260,6261,6262,6263,6264,6265,6266,6267,6268,6269,6270,6271,6272,6273,6274,6275,6276,6277,6278,6279,6280,6281,6282,6283,6284,6285,6239,6211,6212,6213,6214,6215,6216,6217,6218,6219,6220,6221,6222,6223,6224,6225,6226,6227,6228,6229,6230,6231,6232,6233,6234,6235,6236,6237,6238,6210,6209): 200 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.24.36:766][308]PIE: Server logged in
+[2025.11.14-12.24.36:779][308]PIE: Play in editor total start time 1.792 seconds.
+[2025.11.14-12.24.37:675][308]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-12.24.37:675][308]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-12.24.37:762][309]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096663 > MaxSimulationTimeStep (0.050) for 'BP_CombatEnemy_C_UAID_F02F741F95DDD8A102_1308922741', movement 'Walking'
+[2025.11.14-12.24.37:869][309]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-12.24.38:046][311]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-12.24.38:160][312]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.24.59:862][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.24.59:862][537]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.24.59:862][537]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-12.24.59:862][537]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-12.24.59:950][537]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.24.59:951][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.24.59:951][537]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-12.24.59:953][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-12.24.59:961][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.25.00:036][537]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2025.11.14-12.25.00:036][537]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=4
+[2025.11.14-12.25.00:039][537]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
+[2025.11.14-12.25.00:079][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2025.11.14-12.25.00:220][538]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2025.11.14-12.25.00:238][538]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.25.01:818][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.11.14-12.25.13:768][122]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.14-12.25.13:788][122]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-12.25.13:788][122]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.11.14-12.25.13:794][122]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.142 ms (total: 247.387 ms)
+[2025.11.14-12.25.13:829][122]LogFMOD: Display: Loaded bank lookup
+[2025.11.14-12.25.13:829][122]LogFMOD: Error: Failed to load asset lookup
+[2025.11.14-12.25.13:835][122]LogFMOD: Default sample rate = 48000
+[2025.11.14-12.25.13:835][122]LogFMOD: System sample rate = 48000
+[2025.11.14-12.25.13:835][122]LogFMOD: Matching system sample rate 48000
+[2025.11.14-12.25.13:835][122]LogFMOD: CallbackHandler not set.
+[2025.11.14-12.25.13:872][122]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.14-12.25.13:900][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-12.25.13:900][122]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.25.13:951][122]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-12.25.13:962][122]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.604 ms (total: 353.047 ms)
+[2025.11.14-12.25.13:963][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062990s)
+[2025.11.14-12.25.13:963][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.063057s)
+[2025.11.14-12.25.14:019][122]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2025.11.14-12.25.14:023][122]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.11.14-12.25.14:026][122]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-12.25.14:026][122]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-12.25.14:026][122]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-12.25.14:026][122]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-12.25.14:044][122]LogWorldPartition: Display: WorldPartition initialize took 17.628 ms (total: 5.85 sec)
+[2025.11.14-12.25.14:044][122]LogPlayLevel: PIE: World Init took: (0.020711s)
+[2025.11.14-12.25.14:045][122]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2025.11.14-12.25.14:046][122]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-12.25.14:046][122]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-12.25.14:046][122]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-12.25.14:046][122]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-12.25.14:046][122]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-12.25.14:046][122]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-12.25.14:046][122]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-12.25.14:046][122]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-12.25.14:046][122]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-12.25.14:046][122]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-12.25.14:046][122]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-12.25.14:050][122]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-12.25.14:089][122]LogAudioMixer: Display: Using Audio Hardware Device HP Z24n G2 (NVIDIA High Definition Audio)
+[2025.11.14-12.25.14:089][122]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-12.25.14:091][122]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-12.25.14:091][122]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-12.25.14:091][122]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2025.11.14-12.25.14:091][122]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2025.11.14-12.25.14:094][122]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2025.11.14-12.25.14:094][122]LogInit: FAudioDevice initialized with ID 35.
+[2025.11.14-12.25.14:094][122]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2025.11.14-12.25.14:094][122]LogAudio: Display: Audio Device (ID: 35) registered with world 'Level1'.
+[2025.11.14-12.25.14:095][122]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2025.11.14-12.25.14:154][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.25.14:154][122]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.11.14-12.25.14:157][122]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.11.14-12.25.14
+[2025.11.14-12.25.14:157][122]LogWorld: Bringing up level for play took: 0.002812
+[2025.11.14-12.25.14:161][122]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2025.11.14-12.25.14:177][122]LogStreaming: Display: FlushAsyncLoading(6612,6611,6610,6609,6608,6607,6606,6605,6604,6603,6602,6601,6600,6599,6598,6597,6596,6595,6594,6593,6592,6591,6590,6589,6588,6587,6586,6585,6584,6583,6582,6542,6543,6544,6545,6546,6547,6548,6549,6550,6551,6552,6553,6554,6555,6556,6557,6558,6559,6560,6561,6562,6563,6564,6565,6566,6567,6568,6569,6570,6571,6572,6573,6574,6575,6576,6577,6578,6579,6580,6581,6532,6533,6534,6535,6536,6537,6538,6539,6540,6541,6531,6516,6517,6518,6519,6520,6521,6522,6523,6524,6525,6526,6527,6528,6529,6530,6515,6512,6513,6514,6494,6495,6496,6497,6498,6499,6500,6501,6502,6503,6504,6505,6506,6507,6508,6509,6510,6511,6490,6491,6492,6493,6444,6445,6446,6447,6448,6449,6450,6451,6452,6453,6454,6455,6456,6457,6458,6459,6460,6461,6462,6463,6464,6465,6466,6467,6468,6469,6470,6471,6472,6473,6474,6475,6476,6477,6478,6479,6480,6481,6482,6483,6484,6485,6486,6487,6488,6489,6443,6415,6416,6417,6418,6419,6420,6421,6422,6423,6424,6425,6426,6427,6428,6429,6430,6431,6432,6433,6434,6435,6436,6437,6438,6439,6440,6441,6442,6414,6413): 200 QueuedPackages, 0 AsyncPackages
+[2025.11.14-12.25.15:604][122]PIE: Server logged in
+[2025.11.14-12.25.15:619][122]PIE: Play in editor total start time 1.832 seconds.
+[2025.11.14-12.25.16:464][122]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.11.14-12.25.16:464][122]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.11.14-12.25.16:664][123]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-12.25.16:881][125]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.11.14-12.25.48:647][ 19]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7752.460449
+[2025.11.14-12.25.48:824][ 24]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-12.25.48:824][ 24]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7752.596191, Update Interval: 347.779175
+[2025.11.14-12.26.17:416][774]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] 1.0
+[2025.11.14-12.27.07:938][126]LogBlueprintUserMessages: [BP_CombatCharacter_C_1] 1.0
+[2025.11.14-12.27.11:522][221]LogBlueprintUserMessages: [BP_CombatCharacter_C_1] 2.0
+[2025.11.14-12.27.58:283][496]LogBlueprintUserMessages: [BP_CombatCharacter_C_1] 3.0
+[2025.11.14-12.28.05:814][700]LogBlueprintUserMessages: [BP_CombatCharacter_C_1] 4.0
+[2025.11.14-12.28.12:322][875]LogBlueprintUserMessages: [BP_CombatCharacter_C_1] 5.0
+[2025.11.14-12.28.27:208][290]LogBlueprintUserMessages: [BP_CombatCharacter_C_1] 6.0
+[2025.11.14-12.28.46:645][839]LogBlueprintUserMessages: [BP_CombatCharacter_C_1] 7.0
+[2025.11.14-12.29.25:191][910]LogBlueprintUserMessages: [BP_CombatCharacter_C_1] 8.0
+[2025.11.14-12.30.05:846][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-12.30.05:846][ 61]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.11.14-12.30.05:846][ 61]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-12.30.05:847][ 61]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.14-12.30.05:953][ 61]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.30.05:954][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.30.05:954][ 61]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.11.14-12.30.05:957][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-12.30.05:968][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.30.06:049][ 61]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2025.11.14-12.30.06:050][ 61]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=4
+[2025.11.14-12.30.06:053][ 61]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=2
+[2025.11.14-12.30.06:093][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2025.11.14-12.30.06:252][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.11.14-12.32.13:904][107]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8137.697266
+[2025.11.14-12.32.14:103][113]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-12.32.14:103][113]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8137.866211, Update Interval: 341.368439
+[2025.11.14-12.38.07:925][894]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.14-12.38.07:925][894]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.14-12.38.07:930][894]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_UAID_28C5C876A0A212A202_1125033736
+[2025.11.14-12.38.07:932][894]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/Level1.Level1:PersistentLevel.StaticMeshActor_UAID_28C5C876A0A212A202_1125033736
+[2025.11.14-12.38.08:284][895]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.38.08:411][896]LogRenderer: Using fallback RTPSO
+[2025.11.14-12.38.08:440][897]LogD3D12RHI: Creating RTPSO with 31 shaders (0 cached, 1 new) took 156.22 ms. Compile time 143.60 ms, link time 12.58 ms.
+[2025.11.14-12.38.36:337][197]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8520.074219
+[2025.11.14-12.38.36:499][208]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-12.38.36:499][208]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8520.222656, Update Interval: 335.827515
+[2025.11.14-12.39.35:205][387]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2025.11.14-12.39.35:222][387]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/Level1/3/F7/31YJ9O57N5RF5SZ199ANM0_Auto4
+[2025.11.14-12.39.35:222][387]LogSavePackage: Moving 'D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/31YJ9O57N5RF5SZ199ANM0_Auto4A35889C84CEB4C654F438CACAAA4B505.tmp' to 'D:/suri/Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/Autosaves/Game/__ExternalActors__/Maps/Level1/3/F7/31YJ9O57N5RF5SZ199ANM0_Auto4.uasset'
+[2025.11.14-12.39.35:225][387]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Level1' took 0.087
+[2025.11.14-12.39.35:225][387]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.087
+[2025.11.14-12.39.43:640][991]Cmd: DELETE
+[2025.11.14-12.39.43:640][991]Cmd: ACTOR DELETE
+[2025.11.14-12.39.43:646][991]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.14-12.39.43:702][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.11.14-12.39.43:705][991]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2025.11.14-12.43.35:677][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.11.14-12.44.22:475][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.11.14-12.44.24:222][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.11.14-12.44.24:395][809]LogStall: Shutdown...
+[2025.11.14-12.44.24:396][809]LogStall: Shutdown complete.
+[2025.11.14-12.44.24:558][809]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.24:558][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.24:685][809]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.14-12.44.24:685][809]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.24:685][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.24:834][809]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.24:834][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.24:923][809]LogSlate: Window 'BP_CombatEnemy' being destroyed
+[2025.11.14-12.44.24:988][809]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.14-12.44.24:988][809]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.24:988][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:137][809]LogSlate: Window 'Message Log' being destroyed
+[2025.11.14-12.44.25:143][809]LogSlate: Window 'Colabs5 - Unreal Editor' being destroyed
+[2025.11.14-12.44.25:145][809]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2025.11.14-12.44.25:413][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.11.14-12.44.25:458][809]Cmd: QUIT_EDITOR
+[2025.11.14-12.44.25:458][810]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.14-12.44.25:475][810]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.14-12.44.25:476][810]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.14-12.44.25:476][810]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.14-12.44.25:499][810]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:500][810]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.11.14-12.44.25:500][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:500][810]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/Level1.Level1
+[2025.11.14-12.44.25:534][810]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.14-12.44.25:534][810]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.11.14-12.44.25:535][810]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.14-12.44.25:542][810]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:542][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:547][810]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:547][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:551][810]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:551][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:555][810]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:556][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:561][810]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:561][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:565][810]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:565][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:569][810]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:569][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:573][810]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-12.44.25:573][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-12.44.25:578][810]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.11.14-12.44.25:578][810]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.14-12.44.25:585][810]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.11.14-12.44.26:097][810]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.14-12.44.26:097][810]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.14-12.44.26:097][810]LogAudio: Display: Audio Device unregistered from world 'Level1'.
+[2025.11.14-12.44.26:097][810]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.14-12.44.26:097][810]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.11.14-12.44.26:102][810]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.11.14-12.44.26:118][810]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.14-12.44.26:118][810]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.14-12.44.26:128][810]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.14-12.44.26:130][810]LogExit: Preparing to exit.
+[2025.11.14-12.44.26:234][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2025.11.14-12.44.26:240][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:241][810]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.14-12.44.26:609][810]LogEditorDataStorage: Deinitializing
+[2025.11.14-12.44.26:782][810]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.14-12.44.26:836][810]LogExit: Editor shut down
+[2025.11.14-12.44.26:849][810]LogExit: Transaction tracking system shut down
+[2025.11.14-12.44.27:138][810]LogExit: Object subsystem successfully closed.
+[2025.11.14-12.44.27:192][810]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.11.14-12.44.27:367][810]LogMemoryProfiler: Shutdown
+[2025.11.14-12.44.27:367][810]LogNetworkingProfiler: Shutdown
+[2025.11.14-12.44.27:367][810]LoadingProfiler: Shutdown
+[2025.11.14-12.44.27:367][810]LogTimingProfiler: Shutdown
+[2025.11.14-12.44.27:374][810]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.11.14-12.44.27:374][810]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.11.14-12.44.28:075][810]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.11.14-12.44.28:075][810]LogNFORDenoise: NFORDenoise function shutting down
+[2025.11.14-12.44.28:114][810]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.11.14-12.44.28:114][810]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA919D440-4F50-B9FE-1504-628E5E53B8B0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=aecb88d8494f6328ba2a5aa176e25f83%7C%7C7c78e7a0-0f52-4c62-b161-63657f32415d&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.11.14-12.44.28:683][810]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.11.14-12.44.28:686][810]RenderDocPlugin: plugin has been unloaded.
+[2025.11.14-12.44.28:687][810]LogXGEController: Cleaning working directory: C:/Users/23676935/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.11.14-12.44.28:692][810]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.11.14-12.44.28:692][810]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.11.14-12.44.28:692][810]LogPakFile: Destroying PakPlatformFile
+[2025.11.14-12.44.31:358][810]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.11.14-12.44.31:633][810]LogExit: Exiting.
+[2025.11.14-12.44.31:686][810]Log file closed, 11/14/25 12:44:31
