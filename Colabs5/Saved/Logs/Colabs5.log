@@ -41767,3 +41767,300 @@ Make sure '/Game/Animations/Frogenemy/Enemyfrogbp.Enemyfrogbp_C' has been compil
 [2025.12.02-18.45.42:654][925]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
 [2025.12.02-18.45.42:654][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.12.02-18.45.43:720][926]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2025.12.02-18.46.14:308][168]LogUObjectHash: Compacting FUObjectHashTables data took   8.64ms
+[2025.12.02-18.46.15:433][168]LogSlate: Window 'Save Content' being destroyed
+[2025.12.02-18.46.15:454][168]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.02-18.46.15:580][168]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Idle] ([1] browsable assets)...
+[2025.12.02-18.46.15:632][168]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Idle.Sword_And_Shield_Idle]
+[2025.12.02-18.46.15:632][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Idle]
+[2025.12.02-18.46.16:202][168]LogSavePackage: Moving output files for package: /Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Idle
+[2025.12.02-18.46.16:202][168]LogSavePackage: Moving '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/Sword_And_Shield_IdleE905BE30437F5CE6E3F8EA97F2F4C06F.tmp' to '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Animations/Frogenemy/Basicanims/Sword_And_Shield_Idle.uasset'
+[2025.12.02-18.46.16:206][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Walk] ([1] browsable assets)...
+[2025.12.02-18.46.16:207][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Walk]
+[2025.12.02-18.46.16:693][168]LogSavePackage: Moving output files for package: /Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Walk
+[2025.12.02-18.46.16:693][168]LogSavePackage: Moving '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/Sword_And_Shield_WalkA4D54CA543253BA28B4BB28B79163B4C.tmp' to '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Animations/Frogenemy/Basicanims/Sword_And_Shield_Walk.uasset'
+[2025.12.02-18.46.16:697][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Frogenemy/mixamofrog] ([1] browsable assets)...
+[2025.12.02-18.46.16:697][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Frogenemy/mixamofrog]
+[2025.12.02-18.46.16:697][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Frogenemy/mixamofrog" FILE="../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Animations/Frogenemy/mixamofrog.uasset" SILENT=true
+[2025.12.02-18.46.16:896][168]LogSavePackage: Moving output files for package: /Game/Animations/Frogenemy/mixamofrog
+[2025.12.02-18.46.16:897][168]LogSavePackage: Moving '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/mixamofrog6E2A3FA142D6B86C92BA79AD412AA896.tmp' to '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Animations/Frogenemy/mixamofrog.uasset'
+[2025.12.02-18.46.16:901][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Frogenemy/mixamofrog_Skeleton] ([1] browsable assets)...
+[2025.12.02-18.46.16:901][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Frogenemy/mixamofrog_Skeleton]
+[2025.12.02-18.46.16:901][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Frogenemy/mixamofrog_Skeleton" FILE="../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Animations/Frogenemy/mixamofrog_Skeleton.uasset" SILENT=true
+[2025.12.02-18.46.16:975][168]LogSavePackage: Moving output files for package: /Game/Animations/Frogenemy/mixamofrog_Skeleton
+[2025.12.02-18.46.16:975][168]LogSavePackage: Moving '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/mixamofrog_SkeletonEFC5FCE04246EB83088627830F4EC82D.tmp' to '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Animations/Frogenemy/mixamofrog_Skeleton.uasset'
+[2025.12.02-18.46.17:122][168]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.66 sec (total: 59.6 sec)
+[2025.12.02-18.46.17:122][168]LogStreaming: Display: FlushAsyncLoading(9668): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.02-18.46.17:209][168]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial
+[2025.12.02-18.46.17:213][168]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Tutorial.Tutorial
+[2025.12.02-18.46.17:214][168]Cmd: MAP LOAD FILE="../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.02-18.46.17:482][168]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-18.46.17:483][168]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.12.02-18.46.17:484][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.46.17:484][168]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/Level1.Level1
+[2025.12.02-18.46.17:678][168]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.02-18.46.17:726][168]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2025.12.02-18.46.17:751][168]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-18.46.17:752][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.46.17:813][168]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2025.12.02-18.46.17:874][168]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.12.02-18.46.17:937][168]LogAudio: Display: Audio Device (ID: 1) registered with world 'Tutorial'.
+[2025.12.02-18.46.17:937][168]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial
+[2025.12.02-18.46.18:077][168]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.02-18.46.18:142][168]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2025.12.02-18.46.18:267][168]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.02-18.46.18:267][168]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.216ms to complete.
+[2025.12.02-18.46.18:526][168]LogContentValidation: Display: Starting to validate 4 assets
+[2025.12.02-18.46.18:526][168]LogContentValidation: Enabled validators:
+[2025.12.02-18.46.18:526][168]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.02-18.46.18:526][168]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.02-18.46.18:526][168]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.02-18.46.18:526][168]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.02-18.46.18:526][168]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.02-18.46.18:526][168]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.02-18.46.18:526][168]AssetCheck: /Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Idle Validating asset
+[2025.12.02-18.46.18:526][168]AssetCheck: /Game/Animations/Frogenemy/Basicanims/Sword_And_Shield_Walk Validating asset
+[2025.12.02-18.46.18:526][168]AssetCheck: /Game/Animations/Frogenemy/mixamofrog Validating asset
+[2025.12.02-18.46.18:526][168]AssetCheck: /Game/Animations/Frogenemy/mixamofrog_Skeleton Validating asset
+[2025.12.02-18.46.18:646][168]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.02-18.46.23:552][352]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.12.02-18.46.27:044][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.12.02-18.46.27:044][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.12.02-18.46.27:055][461]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/Tutorial.Tutorial:PersistentLevel.StaticMeshActor_11
+[2025.12.02-18.46.27:059][461]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/Tutorial.Tutorial:PersistentLevel.StaticMeshActor_11
+[2025.12.02-18.46.44:645][ 50]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.12.02-18.46.44:720][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.02-18.46.44:720][ 50]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2025.12.02-18.46.44:724][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004961s)
+[2025.12.02-18.46.44:724][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.005004s)
+[2025.12.02-18.46.44:779][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.12.02-18.46.44:793][ 50]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial
+[2025.12.02-18.46.44:796][ 50]LogPlayLevel: PIE: World Init took: (0.001871s)
+[2025.12.02-18.46.44:797][ 50]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2025.12.02-18.46.44:797][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-18.46.44:797][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-18.46.44:797][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-18.46.44:797][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-18.46.44:797][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-18.46.44:797][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-18.46.44:797][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-18.46.44:797][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-18.46.44:797][ 50]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-18.46.44:797][ 50]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-18.46.44:797][ 50]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-18.46.44:801][ 50]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-18.46.44:857][ 50]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.12.02-18.46.44:857][ 50]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-18.46.44:857][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-18.46.44:857][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-18.46.44:858][ 50]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2025.12.02-18.46.44:858][ 50]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=45
+[2025.12.02-18.46.44:861][ 50]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2025.12.02-18.46.44:861][ 50]LogInit: FAudioDevice initialized with ID 45.
+[2025.12.02-18.46.44:861][ 50]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2025.12.02-18.46.44:861][ 50]LogAudio: Display: Audio Device (ID: 45) registered with world 'Tutorial'.
+[2025.12.02-18.46.44:861][ 50]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2025.12.02-18.46.44:950][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-18.46.44:951][ 50]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.12.02-18.46.44:954][ 50]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2025.12.02-18.46.44
+[2025.12.02-18.46.44:955][ 50]LogWorld: Bringing up level for play took: 0.004986
+[2025.12.02-18.46.44:960][ 50]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2025.12.02-18.46.44:978][ 50]PIE: Server logged in
+[2025.12.02-18.46.44:986][ 50]PIE: Play in editor total start time 0.275 seconds.
+[2025.12.02-18.46.44:995][ 50]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.12.02-18.46.44:995][ 50]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.12.02-18.47.08:686][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-18.47.08:687][900]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Tutorial
+[2025.12.02-18.47.08:687][900]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.02-18.47.08:709][900]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-18.47.08:711][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.47.08:714][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-18.47.08:732][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.47.08:817][900]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2025.12.02-18.47.08:817][900]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=4
+[2025.12.02-18.47.08:823][900]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=2
+[2025.12.02-18.47.08:849][900]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2025.12.02-18.47.09:173][901]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2025.12.02-18.47.12:038][  0]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.12.02-18.47.12:109][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.02-18.47.12:109][  0]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2025.12.02-18.47.12:115][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004460s)
+[2025.12.02-18.47.12:115][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.004502s)
+[2025.12.02-18.47.12:168][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2025.12.02-18.47.12:175][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial
+[2025.12.02-18.47.12:178][  0]LogPlayLevel: PIE: World Init took: (0.003191s)
+[2025.12.02-18.47.12:179][  0]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2025.12.02-18.47.12:179][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-18.47.12:179][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-18.47.12:179][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-18.47.12:179][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-18.47.12:179][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-18.47.12:179][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-18.47.12:179][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-18.47.12:179][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-18.47.12:179][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-18.47.12:179][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-18.47.12:179][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-18.47.12:181][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-18.47.12:227][  0]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.12.02-18.47.12:228][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-18.47.12:228][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-18.47.12:228][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-18.47.12:228][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2025.12.02-18.47.12:228][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=46
+[2025.12.02-18.47.12:231][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2025.12.02-18.47.12:231][  0]LogInit: FAudioDevice initialized with ID 46.
+[2025.12.02-18.47.12:231][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2025.12.02-18.47.12:231][  0]LogAudio: Display: Audio Device (ID: 46) registered with world 'Tutorial'.
+[2025.12.02-18.47.12:231][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2025.12.02-18.47.12:330][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-18.47.12:330][  0]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.12.02-18.47.12:332][  0]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2025.12.02-18.47.12
+[2025.12.02-18.47.12:332][  0]LogWorld: Bringing up level for play took: 0.001582
+[2025.12.02-18.47.12:338][  0]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2025.12.02-18.47.12:359][  0]PIE: Server logged in
+[2025.12.02-18.47.12:365][  0]PIE: Play in editor total start time 0.263 seconds.
+[2025.12.02-18.47.12:371][  0]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.12.02-18.47.12:371][  0]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.12.02-18.48.10:462][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-18.48.10:463][147]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Tutorial
+[2025.12.02-18.48.10:463][147]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.02-18.48.10:495][147]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-18.48.10:496][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.48.10:497][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-18.48.10:513][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.48.10:575][147]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2025.12.02-18.48.10:575][147]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46, StreamState=4
+[2025.12.02-18.48.10:579][147]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46, StreamState=2
+[2025.12.02-18.48.10:595][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.12.02-18.48.10:870][148]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2025.12.02-18.48.12:781][211]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2025.12.02-18.48.12:793][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.02-18.48.12:911][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.12.02-18.48.13:209][211]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.12.02-18.48.13:580][211]LogSavePackage: Moving output files for package: /Game/Maps/Tutorial
+[2025.12.02-18.48.13:582][211]LogSavePackage: Moving '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Saved/Tutorial2B99406749C79097F133F1BC2FAFC8E1.tmp' to '../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Maps/Tutorial.umap'
+[2025.12.02-18.48.13:712][211]LogFileHelpers: Saving map 'Tutorial' took 0.803
+[2025.12.02-18.48.13:727][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 933.155 ms (total: 1:00 min)
+[2025.12.02-18.48.13:856][211]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.02-18.48.13:857][211]LogContentValidation: Enabled validators:
+[2025.12.02-18.48.13:857][211]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.02-18.48.13:857][211]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.02-18.48.13:857][211]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.02-18.48.13:857][211]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.02-18.48.13:857][211]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.02-18.48.13:857][211]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.02-18.48.13:857][211]AssetCheck: /Game/Maps/Tutorial Validating asset
+[2025.12.02-18.48.15:912][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2025.12.02-18.48.15:920][275]LogStreaming: Display: FlushAsyncLoading(9670): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.02-18.48.16:073][275]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.02-18.48.16:073][275]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.12.02-18.48.16:073][275]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.02-18.48.16:073][275]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/Level1.Level1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.02-18.48.16:137][275]LogWorldPartition: Display: WorldPartition initialize took 63.912 ms (total: 13.0 sec)
+[2025.12.02-18.48.16:140][275]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level1.Level1
+[2025.12.02-18.48.16:140][275]Cmd: MAP LOAD FILE="../../../../../Suri-Echo-of-the-Lost-Souls/Colabs5/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.02-18.48.16:404][275]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-18.48.16:404][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.48.16:457][275]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.02-18.48.16:467][275]LogUObjectHash: Compacting FUObjectHashTables data took   7.82ms
+[2025.12.02-18.48.16:484][275]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-18.48.16:484][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.48.16:484][275]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/Level1.Level1
+[2025.12.02-18.48.16:550][275]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
+[2025.12.02-18.48.16:622][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.12.02-18.48.16:691][275]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2025.12.02-18.48.16:691][275]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.02-18.48.16:695][275]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.12.02-18.48.16:695][275]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.02-18.48.16:695][275]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/Level1.Level1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.02-18.48.16:971][275]LogProperty: Warning: Serialized Class /Script/Engine.SoundWave for a property of Class /Script/MediaAssets.MediaSource. Reference will be nulled.
+    ReferencingObject = MediaPlateComponent /Game/Maps/Level1.Level1:PersistentLevel.MediaPlate_UAID_F02F741F95DD07A402_1478254912.MediaPlateComponent0
+    Property = SoftObjectProperty /Script/MediaPlate.MediaPlateResource:MediaAsset
+    Item = SoundWave /Game/Music/Gabi_Project.Gabi_Project
+[2025.12.02-18.48.17:409][275]LogWorldPartition: Display: WorldPartition initialize took 713.498 ms (total: 13.7 sec)
+[2025.12.02-18.48.17:799][275]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.02-18.48.17:800][275]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (80, 7 bits) vs calculated maxtiles (384, 9 bits)
+[2025.12.02-18.48.18:243][275]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2025.12.02-18.48.18:357][275]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.02-18.48.18:360][275]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.513ms to complete.
+[2025.12.02-18.48.24:530][326]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.12.02-18.48.24:580][326]LogContentBundle: [Level1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.02-18.48.24:580][326]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.12.02-18.48.24:587][326]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 7.250 ms (total: 190.378 ms)
+[2025.12.02-18.48.24:590][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.02-18.48.24:590][326]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2025.12.02-18.48.24:619][326]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.02-18.48.24:621][326]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.163 ms (total: 61.254 ms)
+[2025.12.02-18.48.24:622][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031016s)
+[2025.12.02-18.48.24:622][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.031071s)
+[2025.12.02-18.48.24:652][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.12.02-18.48.24:659][326]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.02-18.48.24:661][326]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.02-18.48.24:661][326]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.02-18.48.24:661][326]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.02-18.48.24:661][326]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.02-18.48.24:670][326]LogWorldPartition: Display: WorldPartition initialize took 8.871 ms (total: 13.8 sec)
+[2025.12.02-18.48.24:670][326]LogPlayLevel: PIE: World Init took: (0.011031s)
+[2025.12.02-18.48.24:672][326]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2025.12.02-18.48.24:672][326]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.02-18.48.24:672][326]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.02-18.48.24:672][326]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.02-18.48.24:672][326]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.02-18.48.24:672][326]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.02-18.48.24:672][326]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.02-18.48.24:672][326]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.02-18.48.24:672][326]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.02-18.48.24:672][326]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.02-18.48.24:672][326]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.02-18.48.24:672][326]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.02-18.48.24:675][326]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.02-18.48.24:707][326]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.12.02-18.48.24:708][326]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.02-18.48.24:708][326]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.02-18.48.24:708][326]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.02-18.48.24:708][326]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2025.12.02-18.48.24:708][326]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=47
+[2025.12.02-18.48.24:710][326]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2025.12.02-18.48.24:711][326]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2025.12.02-18.48.24:711][326]LogInit: FAudioDevice initialized with ID 47.
+[2025.12.02-18.48.24:711][326]LogAudio: Display: Audio Device (ID: 47) registered with world 'Level1'.
+[2025.12.02-18.48.24:711][326]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2025.12.02-18.48.24:788][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-18.48.24:788][326]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.12.02-18.48.24:789][326]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.12.02-18.48.24
+[2025.12.02-18.48.24:790][326]LogWorld: Bringing up level for play took: 0.001267
+[2025.12.02-18.48.24:793][326]LogOnline: OSS: Created online subsystem instance for: :Context_105
+[2025.12.02-18.48.24:804][326]LogStreaming: Display: FlushAsyncLoading(10573,10572,10571,10570,10569,10568,10567,10566,10565,10564,10563,10562,10561,10560,10559,10558,10557,10556,10555,10554,10553,10552,10551,10550,10547,10548,10549,10513,10514,10515,10516,10517,10518,10519,10520,10521,10522,10523,10524,10525,10526,10527,10528,10529,10530,10531,10532,10533,10534,10535,10536,10537,10538,10539,10540,10541,10542,10543,10544,10545,10546,10512,10488,10489,10490,10491,10492,10493,10494,10495,10496,10497,10498,10499,10500,10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10487,10486,10485,10483,10484,10417,10418,10419,10420,10421,10422,10423,10424,10425,10426,10427,10428,10429,10430,10431,10432,10433,10434,10435,10436,10437,10438,10439,10440,10441,10442,10443,10444,10445,10446,10447,10448,10449,10450,10451,10452,10453,10454,10455,10456,10457,10458,10459,10460,10461,10462,10463,10464,10465,10466,10467,10468,10469,10470,10471,10472,10473,10474,10475,10476,10477,10478,10479,10480,10481,10482,10416,10415,10373,10374,10375,10376,10377,10378,10379,10380,10381,10382,10383,10384,10385,10386,10387,10388,10389,10390,10391,10392,10393,10394,10395,10396,10397,10398,10399,10400,10401,10402,10403,10404,10405,10406,10407,10408,10409,10410,10411,10412,10413,10414,10328,10329,10330,10331,10332,10333,10334,10335,10336,10337,10338,10339,10340,10341,10342,10343,10344,10345,10346,10347,10348,10349,10350,10351,10352,10353,10354,10355,10356,10357,10358,10359,10360,10361,10362,10363,10364,10365,10366,10367,10368,10369,10370,10371,10372,10327,10322,10323,10324,10325,10326,10318,10319,10320,10321,10306,10307,10308,10309,10310,10311,10312,10313,10314,10315,10316,10317,10288,10289,10290,10291,10292,10293,10294,10295,10296,10297,10298,10299,10300,10301,10302,10303,10304,10305,10232,10233,10234,10235,10236,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254,10255,10256,10257,10258,10259,10260,10261,10262,10263,10264,10265,10266,10267,10268,10269,10270,10271,10272,10273,10274,10275,10276,10277,10278,10279,10280,10281,10282,10283,10284,10285,10286,10287,10199,10200,10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10198,10196,10197,10195): 379 QueuedPackages, 0 AsyncPackages
+[2025.12.02-18.48.24:937][326]LogProperty: Warning: Serialized Class /Script/Engine.SoundWave for a property of Class /Script/MediaAssets.MediaSource. Reference will be nulled.
+    ReferencingObject = MediaPlateComponent /Memory/UEDPIE_0_Level1_C0SGWOX60A9XIBJBNTZ14XH6Z.Level1:PersistentLevel.MediaPlate_UAID_F02F741F95DD07A402_1478254912.MediaPlateComponent0
+    Property = SoftObjectProperty /Script/MediaPlate.MediaPlateResource:MediaAsset
+    Item = SoundWave /Game/Music/Gabi_Project.Gabi_Project
+[2025.12.02-18.48.25:179][326]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.12.02-18.48.25:180][326]LogMovieScene: Starting new camera cut: 'CineCameraActor_0'
+[2025.12.02-18.48.25:186][326]LogMediaPlate: Warning: Could not play anything.
+[2025.12.02-18.48.25:193][326]PIE: Server logged in
+[2025.12.02-18.48.25:197][326]PIE: Play in editor total start time 0.617 seconds.
+[2025.12.02-18.48.25:257][326]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.12.02-18.48.25:257][326]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.12.02-18.48.52:586][167]LogMovieScene: Starting new camera cut: 'CineCameraActor_1'
+[2025.12.02-18.49.05:000][893]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6190.263184
+[2025.12.02-18.49.05:153][902]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.02-18.49.05:153][902]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6190.400391, Update Interval: 323.042694
+[2025.12.02-18.49.21:413][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.02-18.49.21:413][859]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2025.12.02-18.49.21:413][859]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.12.02-18.49.21:413][859]LogSlate: Window 'Colabs5 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.02-18.49.21:458][859]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.02-18.49.21:459][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.49.21:459][859]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_Level1.Level1
+[2025.12.02-18.49.21:460][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.02-18.49.21:470][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.02-18.49.21:517][859]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2025.12.02-18.49.21:517][859]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47, StreamState=4
+[2025.12.02-18.49.21:519][859]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47, StreamState=2
+[2025.12.02-18.49.21:550][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.12.02-18.49.21:632][860]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2025.12.02-18.50.04:389][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.12.02-18.52.17:509][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.12.02-18.52.32:235][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
